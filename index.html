@@ -12,19 +12,25 @@
         <header>
             <div class="header top">
                 <form action="post">
-                    <img src="img/magnify.svg" alt="Search">
-                    <label for="search"></label>
-                    <input id='search' type="search">
+                    <div class="search">
+                        <img src="img/magnify.svg" alt="Search">
+                        <label for="search"></label>
+                        <input id='search' type="search">
+                    </div>
                 </form>
-                <img src="img/bell-ring.svg" alt="">
-                <div>Profile img</div>
-                <h4>John Doe</h4>
+                <div class="header-right">
+                    <img src="img/bell-ring.svg" alt="">
+                    <img src="img/panda.png" alt="picture of panda, provided by Freepik">
+                    <h4>John Doe</h4>
+                </div>
             </div>
             <div class="header bottom">
                 <div class="left">
-                    <div>profile img</div>
-                    <p>Hi there,</p>
-                    <p>John Doe (@Mr.Doe)</p>
+                    <img src="img/panda.png" alt="icon of panda, provided by Freepik">
+                    <div class="intro">
+                        <p>Hi there,</p>
+                        <p>John Doe (@Mr.Doe)</p>
+                    </div>
                 </div>
                 <div class="right">
                     <button>New</button>
@@ -37,56 +43,135 @@
             <h2>Dashboard</h2>
             <ul>
                 <div class="nav top">
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <div class="icon-title">
+                        <img src="img/home.svg" alt="" class="">
+                        <li>Home</li>
+                    </div>
+                    <div class="icon-title">
+                        <img src="img/account-circle.svg" alt="">
+                        <li>Profile</li>
+                    </div>
+                    <div class="icon-title">
+                        <img src="img/message.svg" alt="">
+                        <li>Messages</li>
+                    </div>
+                    <div class="icon-title">
+                        <img src="img/history.svg" alt="">
+                        <li>History</li>
+                    </div>
+                    <div class="icon-title">
+                        <img src="img/format-list-checks.svg" alt="">
+                        <li>Tasks</li>
+                    </div>
+                    <div class="icon-title">
+                        <img src="img/crowd.svg" alt="">
+                        <li>Communities</li>
+                    </div>
                 </div>
                 <div class="nav bottom">
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <div class="icon-title">
+                        <img src="img/cog.svg" alt="">
+                        <li>Settings</li>
+                    </div>
+                    <div class="icon-title">
+                        <img src="img/face-agent.svg" alt="">
+                        <li>Support</li>
+                    </div>
+                    <div class="icon-title">
+                        <img src="img/shield-lock-outline.svg" alt="">
+                        <li>Privacy</li>
+                    </div>
                 </div>
             </ul>
         </div>
         <div class="content-container">
             
-            <h3 class="title">Your Projects</h3>
+            
             <div class="main-content">
-                <div class="card">
-                    <p class="title">Super Cool Project</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisi diam, lacinia sed libero efficitur, blandit sodales tortor. Fusce in ipsum sed lacus pretium accumsan faucibus in lorem. Nam vel volutpat arcu</p>
-                </div>
-                <div class="card">
-                    <p class="title">Another Cool Project</p>
-                    <p>Praesent ultrices nibh vel imperdiet maximus. Cras in dictum est. </p>
-                </div>
-                <div class="card">
-                    <p class="title">Sweet App</p>
-                    <p>Nulla ex ante, hendrerit ac iaculis sodales, viverra a leo. Quisque sed feugiat quam. Praesent dictum ac libero vitae auctor.</p>
-                </div>
-                <div class="card">
-                    <p class="title">Easy App</p>
-                    <p>Fusce rhoncus et orci et consequat. Vivamus eget nisl sed tortor blandit imperdiet vitae non dui.</p>
-                </div>
-                <div class="card">
-                    <p class="title">Impossibe App</p>
-                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In scelerisque quam eu nibh tristique, sed mattis tellus imperdiet.</p>
-                </div>
-                <div class="card">
-                    <p class="title">Money Tree</p>
-                    <p>Nunc faucibus molestie suscipit. Nullam elementum posuere erat.</p>
+                <h3 class="title">Your Projects</h3>
+                <div class="left-content">
+                    <div class="card">
+                        <p class="title">Super Cool Project</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisi diam, lacinia sed libero efficitur, blandit sodales tortor. Fusce in ipsum sed lacus pretium accumsan faucibus in lorem. Nam vel volutpat arcu</p>
+                    </div>
+                    <div class="card">
+                        <p class="title">Another Cool Project</p>
+                        <p>Praesent ultrices nibh vel imperdiet maximus. Cras in dictum est. </p>
+                    </div>
+                    <div class="card">
+                        <p class="title">Sweet App</p>
+                        <p>Nulla ex ante, hendrerit ac iaculis sodales, viverra a leo. Quisque sed feugiat quam. Praesent dictum ac libero vitae auctor.</p>
+                    </div>
+                    <div class="card">
+                        <p class="title">Easy App</p>
+                        <p>Fusce rhoncus et orci et consequat. Vivamus eget nisl sed tortor blandit imperdiet vitae non dui.</p>
+                    </div>
+                    <div class="card">
+                        <p class="title">Impossibe App</p>
+                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In scelerisque quam eu nibh tristique, sed mattis tellus imperdiet.</p>
+                    </div>
+                    <div class="card">
+                        <p class="title">Money Tree</p>
+                        <p>Nunc faucibus molestie suscipit. Nullam elementum posuere erat.</p>
+                    </div>
                 </div>
             </div>
             
-            <div class="content">
-                <h3>Announcements</h3>
-                <div class="card"></div>
-            </div>
-            <div class="content">
-                <h3>Trending</h3>
+            <div class="right-content">
+                <div class="content">
+                    <h3>Announcements</h3>
+                    <div class="card-top">
+                        <div class="mini-card">
+                            <p>Site Maintenance
+                            </p>
+                            <p>We got to fix this website soon...</p>
+                        </div>
+                        <div class="mini-card">
+                            <p>Community Site Day</p>
+                            <p>Don't forget to bring some food for the potluck friday</p>
+                        </div>
+                        <div class="mini-card">
+                            <p>Mentorship Program</p>
+                            <p>Reach out if you are interested in mentoring one of our interns!</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="content">
+                    <h3>Trending</h3>
+                    <div class="card-bottom">
+                        <div class="profile-card">
+                            <img src="img/llama.png" alt="llama icon, provided by Freepik">
+                            <div class="user-card">
+                                <p>@Swoosh</p>
+                                <p>Water Treatment Expert</p>
+                            </div>
+                        </div>
+                        <div class="profile-card">
+                            <img src="img/panda.png" alt="Panda icon, provided by Freepik">
+                            <div class="user-card">
+                                <p>@Mr.Doe</p>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="profile-card">
+                            <img src="img/owl.png" alt="Owl icon, provided  by Freepik">
+                            <div class="user-card">
+                                <p>@Jimmy-N</p>
+                                <p>App guide</p>
+                            </div>
+                        </div>
+                        <div class="profile-card">
+                            <img src="img/chicken.png" alt="Chicken icon, provided by Freepik">
+                            <div class="user-card">
+                                <p>@hibyenight</p>
+                                <p>Manager on Duty</p>
+                            </div>
+                        </div>
+                    </div>
+
+                
+                </div>
             </div>
         </div>
     </div>
